@@ -108,13 +108,13 @@ If you have an existing Compass project:
 2. Install Bootstrap with:
 
     ```console
-    $ bundle exec compass install bootstrap -r bootstrap-sass
+    $ compass install bootstrap -r bootstrap-sass
     ```
 
 If you are creating a new Compass project, you can generate it with bootstrap-sass support:
 
 ```console
-$ bundle exec compass create my-new-project -r bootstrap-sass --using bootstrap
+$ compass create my-new-project -r bootstrap-sass --using bootstrap
 ```
 
 or, alternatively, if you're not using a Gemfile for your dependencies:
